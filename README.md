@@ -2,7 +2,7 @@
 
 This is an introduction to using git on the command line and GitHub.
 
-* What is git? (and what is GitHub?)
+* [What is git? (and what is GitHub?)](https://github.com/leoneckert/basics-of-github-with-pictures/#what-is-git-and-what-is-github)
 * Make a GitHub account
 * Work on your own project
 * Use/Extend on someone else's project
