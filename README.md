@@ -19,4 +19,8 @@ Git, and let's don't even think of GitHub yet, is a framework that we can use on
 
 image here
 
-Let's imagine our working environment as our Desktop - the files of a project we are currently working on - and a git repository (repo for short) - that is the place where the changes on the project's files are being tracked. The git repo, at any given point, is either up-to-date with our changes on the files, or behind. To bring them to the latest version, we **commit** our changes. On our computer we can have multiple different such repos for different project. 
+Let's imagine our working environment as our Desktop - the files of a project we are currently working on - and a git repository (repo for short) - that is the place where the changes on the project's files are being tracked. The git repo, at any given point, is either up-to-date with our changes on the files, or behind. To bring them to the latest version, we **commit** our changes. On our computer we can have multiple different such repos for different project. I am thinking of a shelves in my computer, one for each project. When we work on a project and commit changes, we are adding new files to the corresponding shelf ;-)
+
+image here
+
+
