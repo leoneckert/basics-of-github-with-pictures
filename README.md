@@ -9,7 +9,7 @@ This is an introduction to using git on the command line and GitHub.
 * Simple collaboration
 * How to NOT expose sensitive/personal data: .gitignore
 
-### What is git? (and what is GitHub?)
+## What is git? (and what is GitHub?)
 
 All this has something to do with saving our work, specifically code related things we produce. Let's start by looking at the most "normal" way of saving files. Every time we save, we overwrite the old version of the file we are working on,  a bit like this:
 
