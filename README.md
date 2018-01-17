@@ -3,7 +3,7 @@
 This is an introduction to using git on the command line and GitHub.
 
 * [What is git? (and what is GitHub?)](https://github.com/leoneckert/basics-of-github-with-pictures/#what-is-git-and-what-is-github)
-* Make a GitHub account
+* [Make a GitHub account](https://github.com/leoneckert/basics-of-github-with-pictures/#make-a-github-account)
 * Work on your own project
 * Use/Extend on someone else's project
 * Simple collaboration
@@ -34,6 +34,7 @@ image here
 ## Make a GitHub account
 
 That part is easy, you can follow the steps [here](https://github.com/join?source=header-home). If you are a student I recommend getting the [Student Developer Pack](https://education.github.com/pack) which gives you some benefits.
+
 
 
 
