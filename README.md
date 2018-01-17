@@ -35,7 +35,21 @@ image here
 
 That part is easy, you can follow the steps [here](https://github.com/join?source=header-home). If you are a student I recommend getting the [Student Developer Pack](https://education.github.com/pack) which gives you some benefits.
 
+## Work on your own project
 
+What's a project? At the very least I would say a project is a folder. Whatever is in that folder and makes up the project is relative. Since that is the case, we can turn any folder on our computer into git repos, that means we can declare "I want to track changes on files in this folder from now on.". 
 
+image here
 
+The things we want to do are 1) declare a folder to be a git repo 2) repeatedly commit the changes we make to files to the that local repo and back up the repo to a project on our github account. 
 
+image here
+
+To declare a folder to be a git repo, open your command line and navigate to the folder. Then use the follwing command:
+```
+git init
+```
+
+image here
+
+... as you can see it says that a git repo has been created and seems to prove that fact by pointing to the `.git` file in that folder. Files starting with a dot are not normally visible in the Finder, you can see them when you type `ls -a` on your command line. The `git init` command added this file to the folder in which from now on changes are being tracked whenever we commit them. 
