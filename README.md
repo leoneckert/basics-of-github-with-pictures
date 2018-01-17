@@ -4,7 +4,7 @@ This is an introduction to using git on the command line and GitHub.
 
 * [What is git? (and what is GitHub?)](https://github.com/leoneckert/basics-of-github-with-pictures/#what-is-git-and-what-is-github)
 * [Make a GitHub account](https://github.com/leoneckert/basics-of-github-with-pictures/#make-a-github-account)
-* Work on your own project
+* [Work on your own project](https://github.com/leoneckert/basics-of-github-with-pictures/#work-on-your-own-project)
 * Use/Extend on someone else's project
 * Simple collaboration
 * How to NOT expose sensitive/personal data: .gitignore
@@ -53,3 +53,20 @@ git init
 image here
 
 ... as you can see it says that a git repo has been created and seems to prove that fact by pointing to the `.git` file in that folder. Files starting with a dot are not normally visible in the Finder, you can see them when you type `ls -a` on your command line. The `git init` command added this file to the folder in which from now on changes are being tracked whenever we commit them. 
+
+Now, after adding some lines of code to our project files and/or deleting some others, we can commit the changes to our local git repo. To do that however, we first need to make clear the changes of which files we want to commit. We do that using the `git add` command in one of the following ways
+```
+git add [file or folder name]
+```
+this will let us commit changes, but only the ones made in a specific file or files in a folder. To commit simply all changes made to any file in this project use
+```
+git add -A
+```
+Personally that is what I use most of the times, in combination with a .gitignore mechanism (explained below) that allows to list files and folders that should simply be never tracked at all.
+
+image here (different git add scenarios)
+
+After having selected which files to commit changes of, we can commit the changes. This always happens with a little commit message in which we explain briefly what changes were done, e.g.
+```
+git commit -m "added a great new function!"
+```
