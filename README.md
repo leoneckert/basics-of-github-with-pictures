@@ -68,5 +68,5 @@ image here (different git add scenarios)
 
 After having selected which files to commit changes of, we can commit the changes. This always happens with a little commit message in which we explain briefly what changes were done, e.g.
 ```
-git commit -m "added a great new function! 🚀"
+git commit -m "🚀 added a great new function!"
 ```
