@@ -17,3 +17,6 @@ image here
 
 Git, and let's don't even think of GitHub yet, is a framework that we can use on our computer for a different kind of saving behaviour: version control. It means that not just the latest version of a file is saved, but all the versions before, too. In other words, all the changes done to the file are being tracked over time. This also allows to go back to older versions of a file or to branch of in different directions to try out thing (e.g. "hey, I think I should restructure my code and use arrays instead of the thousands of variables I am using!"). Version control is a bit like this (just that in the drawing it looks like a new copy is added on every save, which would take a lot of memory space. In reality, only the actual changes to the file are saved):
 
+image here
+
+Let's imagine our working environment as our Desktop - the files of a project we are currently working on - and a git repository (repo for short) - that is the place where the changes on the project's files are being tracked. The git repo, at any given point, is either up-to-date with our changes on the files, or behind. To bring them to the latest version, we **commit** our changes. On our computer we can have multiple different such repos for different project. 
