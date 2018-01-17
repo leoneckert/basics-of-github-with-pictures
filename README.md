@@ -31,7 +31,9 @@ GitHub is great for many reasons. It's amazing to share code and also amazing to
 
 image here
 
+## Make a GitHub account
 
+That part is easy, you can follow the steps [here](https://github.com/join?source=header-home). If you are a student I recommend getting the [Student Developer Pack](https://education.github.com/pack) which gives you some benefits.
 
 
 
