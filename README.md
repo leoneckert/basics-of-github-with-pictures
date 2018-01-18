@@ -101,6 +101,38 @@ image here
 
 After that, we can refresh the project's page on GitHub and see our latest changes. Right now our working files, the local git repo and the remote GitHub repo are all at the same version. 
 
+From now on we can keep working on our project and stay in that "add, commit, push" cycle to make sure our changes are tracked and synced to GitHub.
+
+image here
+
+
+## Use/Extend on someone else's project
+
+On GitHub you can not just looks at other people's code and learn from it, but also download it, run it and use it in your own projects (always credit them if you build something cool (which I know you will!)!). There is two common ways do do this. I recommend to "clone" someone's repo if you just want to run it on you computer without tweaking and changing much about it and "fork" someone's repo if you are planning to extent it and build your own, crazy project on top of it. 
+
+#### Clone a repo to run it on your computer
+
+If you find a repo on GitHub that you want to run, find the "Clone or download" button at the top right of the repo and get the link (note, you have the options of HTTPS and ssh here. While I want to cover this in a later session (and you can feel free to ask me about it now), for today, let's always select HTTPS when we are given the option)
+
+image here screenshot
+
+then on our command line we navigate to a folder where we want to place the repo at and enter
+```
+git clone https://github.com/leoneckert/basics-of-github-with-pictures.git
+```
+if you now type
+```
+ls
+```
+you will see you have successfully clones someone else repo and can use it. 
+
+Assuming whoever is the repo's owner made changes nd updates to the code, you can bring your local clone to the latest version by navigating into its project folder on the command line and entering:
+```
+git pull
+```
+...to "pull" the latest changes that the owner recently pushed. Yay!
+
+
 
 
 
