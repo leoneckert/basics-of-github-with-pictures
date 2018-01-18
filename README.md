@@ -32,7 +32,7 @@ So, git is a framework that we use locally, on our computer, to keep track of ch
 
 GitHub is great for many reasons. First of all, it makes our local git repos visual and easily explorable. Apart from that it's amazing to share code as well as being able to use code that other people share. You can also work off other people's code and make your own project out of it. Beyond that, GitHub is the place through which collaborating on code project becomes possible, as different people making changes to a project locally can push their changes to the same shared project on GitHub. GitHub is a huge place where every user has their own little library of repos and can wander around to look at other people's work. 
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/github2.gif)
 
 ## Make a GitHub account
 
