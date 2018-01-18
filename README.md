@@ -92,7 +92,7 @@ and click "New repository". After giving it a name and clicking "Create reposito
 
 In our project, on the command line, we can declare the remote repository by entering:
 ```
-git remote add origin https://github.com/my-username-is-username/hallo.git
+git remote add origin https://github.com/leoneckert/project.git
 ```
 note, `origin` here is the name we give that remote repository.
 
@@ -100,15 +100,16 @@ Great, from now on, to bring out GitHub repo on the latest version, we push our 
 ```
 git push origin master
 ```
-`git push` is the command, `origin` is the name of the remote repo we want to push to, `master` is the "branch" we want to push (branches will be explained in the next workshop). 
+`git push` is the command, `origin` is the name of the remote repo we want to push to, `master` is the "branch" we want to push (branches will be explained in the next workshop). The first time you do this, it might ask you for your password, after that it should be saved in your osxkeychain (since we are using HTTPS - if you want to use a ssh connection you need to create a key pair (I can help you with that!))
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/pw.png)
 
 After that, we can refresh the project's page on GitHub and see our latest changes. Right now our working files, the local git repo and the remote GitHub repo are all at the same version. 
 
 From now on we can keep working on our project and stay in that "add, commit, push" cycle to make sure our changes are tracked and synced to GitHub.
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/push.png)
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/repoafterpush.png)
 
 #### Excercise:
 
