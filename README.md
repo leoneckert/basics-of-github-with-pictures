@@ -46,7 +46,7 @@ What's a project? At the very least I would say a project is a folder. Whatever 
 
 The things we want to do are 1) declare a folder to be a git repo 2) repeatedly commit the changes we make to files to the that local repo and back up the repo to a project on our github account. 
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/loop1.jpg)
 
 To declare a folder to be a git repo, open your command line and navigate to the folder. Then use the follwing command:
 ```
