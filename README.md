@@ -28,7 +28,7 @@ Let's imagine our working environment as our Desktop - the files of a project we
 
 So, git is a framework that we use locally, on our computer, to keep track of changes on our files on a per project basis - one project, one repo. Let's get to GitHub. GitHub is a website, a space online/remote from our own computers where we can back up our repos. When you make a GitHub account, you are given a space on their database when you can keep copies of those git shelves that are on your computer. Just like the git repo in relation to our working files, the GitHub version of the project, at any given time, is either up-to-date with the latest version of our local repo, or behind. To update it (after commiting changes to the local repo), we **push** the local repo to GitHub. 
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/github.jpg)
 
 GitHub is great for many reasons. First of all, it makes our local git repos visual and easily explorable. Apart from that it's amazing to share code as well as being able to use code that other people share. You can also work off other people's code and make your own project out of it. Beyond that, GitHub is the place through which collaborating on code project becomes possible, as different people making changes to a project locally can push their changes to the same shared project on GitHub. GitHub is a huge place where every user has their own little library of repos and can wander around to look at other people's work. 
 
