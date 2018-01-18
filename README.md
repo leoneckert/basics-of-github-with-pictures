@@ -5,7 +5,7 @@ This is an introduction to using git on the command line and GitHub.
 * [What is git? (and what is GitHub?)](https://github.com/leoneckert/basics-of-github-with-pictures/#what-is-git-and-what-is-github)
 * [Make a GitHub account](https://github.com/leoneckert/basics-of-github-with-pictures/#make-a-github-account)
 * [Work on your own project](https://github.com/leoneckert/basics-of-github-with-pictures/#work-on-your-own-project)
-* Use/Extend on someone else's project
+* [Use/Extend on someone else's project](https://github.com/leoneckert/basics-of-github-with-pictures/#useextend-on-someone-elses-project)
 * Simple collaboration
 * How to NOT expose sensitive/personal data: .gitignore
 
@@ -105,6 +105,14 @@ From now on we can keep working on our project and stay in that "add, commit, pu
 
 image here
 
+#### Excercise:
+
+Let's do this:
+
+- create a new project folder
+- initialise a local git repo and commit some changes to it
+- 
+
 
 ## Use/Extend on someone else's project
 
@@ -132,7 +140,17 @@ git pull
 ```
 ...to "pull" the latest changes that the owner recently pushed. Yay!
 
+#### Fork a repo to "make it your own"
 
+When creating our own repo, it all started on our computer where we turned a folder into a git repo and then pushed it to GitHub. When we find someone else's project that we want to add something to, it starts on GitHub where we fork the project. You will find the "Fork" button when you look close enough! 
+
+image here screenshot
+
+After you clicked it, you will see that you suddenly have a copy of the project on your own account/profile! Fro there you clone it to your computer as you just learned above:
+```
+git clone https://github.com/my-username-is-username/basics-of-github-with-pictures.git
+```
+not the user in the url string is now you! Since you cloned this from your own account, you will be able to push your local changes to it as it pleases you without needing to worry about the original repo that you initially forked from! AMAZING!
 
 
 
