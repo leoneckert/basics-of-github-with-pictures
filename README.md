@@ -57,6 +57,8 @@ git init
 
 ... as you can see it says that a git repo has been created and seems to prove that fact by pointing to the `.git` file in that folder. Files starting with a dot are not normally visible in the Finder, you can see them when you type `ls -a` on your command line. The `git init` command added this file to the folder in which from now on changes are being tracked whenever we commit them. 
 
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/gitinit2.png)
+
 Now, after adding some lines of code to our project files and/or deleting some others, we can commit the changes to our local git repo. To do that however, we first need to make clear the changes of which files we want to commit. We do that using the `git add` command in one of the following ways
 ```
 git add [file or folder name]
