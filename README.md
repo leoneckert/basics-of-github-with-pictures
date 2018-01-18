@@ -42,7 +42,7 @@ That part is easy, you can follow the steps [here](https://github.com/join?sourc
 
 What's a project? At the very least I would say a project is a folder. Whatever is in that folder and makes up the project is relative. Since that is the case, we can turn any folder on our computer into git repos, that means we can declare "I want to track changes on files in this folder from now on.". 
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/init1.jpg)
 
 The things we want to do are 1) declare a folder to be a git repo 2) repeatedly commit the changes we make to files to the that local repo and back up the repo to a project on our github account. 
 
