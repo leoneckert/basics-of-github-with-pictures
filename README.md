@@ -78,7 +78,7 @@ git commit -m "🚀 added a great new function!"
 
 After the commit, local repo and files are up-to-date. 
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/gitcommit.png)
 
 #### Pushing changes to remote GitHub repo
 
