@@ -11,6 +11,8 @@ This is an introduction to using git on the command line and GitHub.
 
 ## What is git? (and what is GitHub?)
 
+Benefits. Go back in time, try out stuff without fear of loosing changes! (extend)
+
 All this has something to do with saving our work, specifically code related things we produce. Let's start by looking at the most "normal" way of saving files. Every time we save, we overwrite the old version of the file we are working on,  a bit like this:
 
 image here
@@ -110,8 +112,9 @@ image here
 Let's do this:
 
 - create a new project folder
-- initialise a local git repo and commit some changes to it
-- 
+- initialize a local git repo and commit some changes to it
+- create a project on GitHub and associate your local project with it
+- keep making changes to your project while keeping both local and remote repo updated
 
 
 ## Use/Extend on someone else's project
@@ -150,7 +153,16 @@ After you clicked it, you will see that you suddenly have a copy of the project 
 ```
 git clone https://github.com/my-username-is-username/basics-of-github-with-pictures.git
 ```
-not the user in the url string is now you! Since you cloned this from your own account, you will be able to push your local changes to it as it pleases you without needing to worry about the original repo that you initially forked from! AMAZING!
+not the user in the url string is now you! Since you cloned this from your own account, you will be able to push your local changes to it as it pleases you without needing to worry about the original repo that you initially forked from! AMAZING! From here on, remember it's the same old add-push-commit oops I mean add-commit-push as always. 
+
+
+## Simple collaboration
+
+Moving on..... collaboration! But we will keep it simple for now. You know how to make a repo yourself ✅  You know how to clone someone else's repo ✅  - that means you are ready to collaborate. In a repo you own, you can define collaborators in the repo settings
+
+image screenshot
+
+... what adding someone here means is that that person can, after cloning the project, push changes back to it! That means two people can both push to the same repo and pull to get the latest changes.
 
 
 
