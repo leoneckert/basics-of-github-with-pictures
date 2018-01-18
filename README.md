@@ -84,7 +84,7 @@ After the commit, local repo and files are up-to-date.
 
 At this point we are working on a project and commit changes to a local git repo. Let's give this project a presence online, on GitHub, too. First we need to create the project, "build a shelf", on GitHub. Click the "+" in the top right corner in you account
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/repo1.png)
 
 and click "New repository". After giving it a name and clicking "Create repository", we are given information we need to connect our local repo to that project, it's this line right here:
 
