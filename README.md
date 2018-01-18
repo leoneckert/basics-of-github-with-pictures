@@ -6,8 +6,9 @@ This is an introduction to using git on the command line and GitHub.
 * [Make a GitHub account](https://github.com/leoneckert/basics-of-github-with-pictures/#make-a-github-account)
 * [Work on your own project](https://github.com/leoneckert/basics-of-github-with-pictures/#work-on-your-own-project)
 * [Use/Extend on someone else's project](https://github.com/leoneckert/basics-of-github-with-pictures/#useextend-on-someone-elses-project)
-* Simple collaboration
+* [Simple collaboration](https://github.com/leoneckert/basics-of-github-with-pictures/#simple-collaboration)
 * How to NOT expose sensitive/personal data: .gitignore
+* Everything broke? Go back to an old version of you project
 
 ## What is git? (and what is GitHub?)
 
