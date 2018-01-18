@@ -88,7 +88,7 @@ At this point we are working on a project and commit changes to a local git repo
 
 and click "New repository". After giving it a name and clicking "Create repository", we are given information we need to connect our local repo to that project, it's this line right here:
 
-image here
+![version control](https://github.com/leoneckert/basics-of-github-with-pictures/blob/master/imgs/repo2.png)
 
 In our project, on the command line, we can declare the remote repository by entering:
 ```
